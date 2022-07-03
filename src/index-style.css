@@ -1,0 +1,36 @@
+@font-face {
+    font-family: MontserratThin;
+    src: url(../fonts/Montserrat-Thin.ttf);
+}
+
+nav {
+    background-color: #000000;
+    text-align: center;
+    font-family: MontserratThin;
+}
+
+a.navbar-brand {
+    margin: auto;
+    text-decoration: none;
+    font-size: 3.5rem;
+    color: #ffffff;
+}
+
+a.nav-link {
+    margin: auto;
+    color: #ffffff;
+    width: 100%;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+a.nav-link:hover {
+    color: #000000;
+    background-color: #ffffff;
+    transition: 0.8s;
+}
+
+body {
+    background: #000000;
+    text-rendering: optimizeSpeed;
+}
